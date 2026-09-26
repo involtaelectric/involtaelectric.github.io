@@ -92,3 +92,9 @@ textarea{min-height:140px;resize:vertical}
 @media(max-width:700px){.callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;bottom:0;left:0;right:0;z-index:60;box-shadow:0 -4px 16px rgba(0,0,0,.15)}
  .callbar a{padding:.9rem;text-align:center;font-weight:700;text-decoration:none;background:var(--ink);color:#fff}
  .callbar a+a{background:var(--accent);color:var(--accent-ink)}body{padding-bottom:56px}}
+/* Project photo gallery */
+.project{margin:0}
+.project a{display:block;border-radius:var(--radius);overflow:hidden;background:#f1f5f9}
+.project img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .25s ease}
+.project a:hover img,.project a:focus-visible img{transform:scale(1.03)}
+.project figcaption{margin-top:.5rem;color:var(--muted);font-size:.95rem}
