@@ -141,3 +141,7 @@ ul.checks.cols2{columns:2 260px}
 .cta-card h2{margin-bottom:.2rem}.cta-card p{margin:0;color:var(--muted)}
 .field.check{display:flex;gap:.6rem;align-items:center}.field.check input{width:auto}.field.check label{margin:0;font-weight:500}
 .opt{font-weight:400;color:var(--muted);font-size:.85rem}
+/* response-time line (owner-confirmed wording) */
+.resp{display:flex;align-items:center;gap:.6rem;font-weight:700;margin:1rem 0}
+.resp .icon{width:30px;height:30px;border-radius:8px}.resp .icon svg{width:18px;height:18px}
+.hero .resp,.page-hero .resp{color:#fff}
