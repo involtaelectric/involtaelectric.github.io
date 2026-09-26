@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://involtaelectric.com/sitemap.xml
