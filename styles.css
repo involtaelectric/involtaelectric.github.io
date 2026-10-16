@@ -174,3 +174,7 @@ blockquote.review footer{margin-top:.9rem;font-size:.9rem;color:var(--muted);fon
 .nf-hero .lead{font-size:1.15rem;color:#e2e8f0;max-width:34rem}
 .nf-hero .lead a{color:var(--accent)}
 .nf-hero .cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.4rem}
+
+/* Projects hero with photo (navy overlay keeps text readable) */
+.page-hero.photo-hero{background:linear-gradient(rgba(11,37,69,.86),rgba(19,49,92,.80)),url(/involta-hero-arena-wide.jpg) center/cover no-repeat;padding:4rem 0 3.4rem}
+.project img{object-position:center 40%}
